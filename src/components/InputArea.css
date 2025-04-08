@@ -1,0 +1,38 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-panel {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+  }
+  
+  .input-panel span {
+    margin-right: 5px;
+  }
+  
+  .query-input-field {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background-color: none;
+    background: none;
+    color: white;
+  }
+
+  .query-terminal {
+    flex-grow: 1; 
+    overflow-y: auto;
+  }
+  
+  .query-entry {
+    margin-bottom: 10px;
+  }
+  
+  .error{
+    color: red;
+  }
+  
